@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Medical Bill Upload App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Medical Bill Upload App is a simple web application built with React that allows users to upload and manage their medical bills. Users can enter bill details, including patient information, hospital name, date of service, bill amount, and upload an image of the bill. The app provides features to view, edit, and delete bills.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Create new bills by filling out a form with patient information, hospital name, date of service, bill amount, and uploading an image of the bill.
+- View a summary of each bill, including patient name, address, hospital name, date of service, bill amount, and the uploaded bill image.
+- Edit existing bills to update the information.
+- Delete bills to remove them from the list.
+- List all uploaded bills on the home page, allowing users to easily navigate and access each bill's summary.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- React Router: A routing library for managing navigation and URL routing in React applications.
+- React Hook Form: A library for managing form state and validation in React.
+- Styled Components: A CSS-in-JS library for styling React components.
+- Local Storage: The browser's built-in storage mechanism for persisting bill data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup and Installation
 
-### `npm test`
+1. Clone the repository or download the source code.
+2. Open a terminal and navigate to the project directory.
+3. Run the following command to install the required dependencies:
+   npm install
+4. Start the development server with the following command:
+   npm start	
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Note: The app should open automatically in your default browser. If not, you can access it at http://localhost:3000.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To add a new bill, click the "Add a New Bill" button on the home page and fill out the form with the required details. Upload an image of the bill by selecting a file from your computer.
+- To view the summary of a bill, click the "View Bill" button next to the corresponding bill on the home page. The summary page will display all the details of the selected bill, including the uploaded bill image.
+- To edit a bill, click the "Edit Bill" button on the bill summary page. It will redirect you to the form page with the pre-filled values of the selected bill. Make the necessary changes and click "Submit" to save the updated bill.
+- To delete a bill, click the "Delete Bill" button on the bill summary page. The bill will be removed from the list of bills.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
